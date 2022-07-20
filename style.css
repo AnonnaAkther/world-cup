@@ -1,0 +1,46 @@
+/* common attributes for style css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    display: flex;
+    background-color: black;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+.banner button{
+    background-color: red;
+    color: white;
+    border: 5px solid red;
+    border-radius: 5px;
+}
+.banner h1, p{
+    color: white;
+}
+.blog{
+     vertical-align: 2px;
+}
+/* players styles */
+.fa-star.filled{
+    color: #FFC014;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players img{
+    align-items: center;
+}
+/* footer styles */
+.goals{  
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid gray;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.container{
+    background-color: black;
+    color: gray;
+    text-align: center;
+}
