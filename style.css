@@ -44,13 +44,24 @@ body{
     color: gray;
     text-align: center;
 }
+
+/* Flags Styles */
+
+.flags{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flag{
+    display: flex;
+}
+
 /* Media Queries */
 
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
     .blog{
         grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
     }
     
 }
